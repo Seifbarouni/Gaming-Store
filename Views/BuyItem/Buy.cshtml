@@ -1,0 +1,33 @@
+@model GetAGame.Models.Item
+
+@if (User.Identity.Name != Model.OwnerName)
+{
+    <div class="text-center">
+        <div class="card">
+            <img style="height:300px;width:300px;align-self:center;" src="@Model.ImgURL">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Title</h5>
+                <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        @{
+                            var strings = @Model.Details.Split(".");
+                            foreach (var item in strings)
+                            {
+                                <li class="list-group-item" style="text-align: left;">@item</li>
+                            }
+                        }
+                        <li class="list-group-item" style="text-align: left;">-Price : @Model.Price$</li>
+                    </ul>
+                </p>
+                <a href="#" class="btn btn-success">Confirm purchase</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h1>It is you item</h1>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back</a>
+    <a asp-asp-controller="DeleteItem" asp-action="Delete" asp-rout-Id="@Model.Id" class="btn btn-danger">Delete Item</a>
+}

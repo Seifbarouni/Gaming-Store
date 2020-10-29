@@ -1,0 +1,40 @@
+﻿@model List<GetAGame.Models.Item>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Your GamingStore</h1>
+    <p>Here you can find all the gaming related items available for you to buy</p>
+    <div class="container mt-5">
+        <div class="card-deck">
+
+            @foreach (var item in Model)
+            {
+                <br />
+                <div class="card" style="width: 25rem;">
+                    <img class="img-fluid" src="@item.ImgURL" , style="height:200px;width:200px;align-self:center;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+
+                        <p class="card-text">@(string.Join(" ",item.Details.Split(" ").Take(10))+ "...")</p>
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                More
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" asp-controller="Details" asp-action="Index"
+    asp-route-Id="@item.Id">More Details</a>
+                                @if (User.Identity.Name != item.OwnerName)
+                                {
+                                    <a class="dropdown-item" asp-controller="BuyItem" asp-action="Buy"
+        asp-route-Id="@item.Id">Buy @item.Price$</a>
+                                }
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            }
+        </div>
+
+    </div>
