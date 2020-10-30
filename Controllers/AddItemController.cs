@@ -15,7 +15,7 @@ namespace GetAGame.Controllers
             _itemsService = itemsService;
         }
         [Authorize]
-        public async Task<IActionResult> Add()
+        public IActionResult Add()
         {
             return View();
         }
