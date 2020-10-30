@@ -1,5 +1,6 @@
 ﻿using GetAGame.Data;
 using GetAGame.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,17 +19,17 @@ namespace GetAGame.Services
 
         public async Task<List<Item>> GetItems()
         {
-            return _dbcontext.ArticlesOfGetAGame.ToList();
+            var items = from m in _dbcontext.ArticlesOfGetAGame select m;
+            return await items.ToListAsync();
         }
         public async Task<Item> GetItem(int? id)
         {
-            return _dbcontext.ArticlesOfGetAGame.FirstOrDefault(i => i.Id == id);
+            return await _dbcontext.ArticlesOfGetAGame.FirstOrDefaultAsync(i => i.Id == id);
         }
         public async Task<List<Item>> GetItemsByName(string name)
         {
-            var items = (from i in _dbcontext.ArticlesOfGetAGame where i.OwnerName == name select i).ToList();
-            //System.Console.WriteLine(items.Count());
-            return items.ToList();
+            var items = from i in _dbcontext.ArticlesOfGetAGame where i.OwnerName == name select i;
+            return await items.ToListAsync();
         }
         public async Task DeleteItemById(int id)
         {
