@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\GetAGame.csproj",
+  "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\GetAGame.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,63 +14392,63 @@
   "RootNamespace": "GetAGame",
   "Documents": [
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Home\\MyItems.cshtml",
-      "TargetPath": "Views\\Home\\MyItems.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Details\\Index.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Details\\Index.cshtml",
       "TargetPath": "Views\\Details\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\BuyItem\\Buy.cshtml",
-      "TargetPath": "Views\\BuyItem\\Buy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\AddItem\\Add.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\AddItem\\Add.cshtml",
       "TargetPath": "Views\\AddItem\\Add.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Home\\MyItems.cshtml",
+      "TargetPath": "Views\\Home\\MyItems.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\BuyItem\\Buy.cshtml",
+      "TargetPath": "Views\\BuyItem\\Buy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\Views\\Shared\\Error.cshtml",
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

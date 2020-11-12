@@ -7781,11 +7781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\GetAGame.csproj",
+      "projectUniqueName": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\GetAGame.csproj",
       "projectName": "GetAGame",
-      "projectPath": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\GetAGame.csproj",
+      "projectPath": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\GetAGame.csproj",
       "packagesPath": "C:\\Users\\Seif\\.nuget\\packages\\",
-      "outputPath": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\GetAGame\\GetAGame\\obj\\",
+      "outputPath": "D:\\Files\\Programming\\personal projects\\C#\\Advanced\\Projects\\Webapps\\Gaming-Store\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Seif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7800,6 +7800,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7811,6 +7812,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -7855,6 +7857,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.7, 3.1.7]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7863,7 +7875,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
       }
     }
   }
