@@ -15,7 +15,7 @@ namespace GetAGame.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            await _itemsService.DeleteItemById(id);
+            await _itemsService.DeleteItemByIdAsync(id);
             return Redirect("/Home");
         }
     }

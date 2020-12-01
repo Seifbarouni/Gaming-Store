@@ -16,7 +16,7 @@ namespace GetAGame.Controllers
         [Authorize]
         public async Task<IActionResult> Buy(int? id)
         {
-            var item = await _itemsService.GetItem(id);
+            var item = await _itemsService.GetItemAsync(id);
             if (item == null)
             {
                 return NotFound();

@@ -23,7 +23,7 @@ namespace GetAGame.Controllers
         public async Task<IActionResult> AddProcess([Bind("Title,ImgURL,Details,Price")] Models.Item item)
         {
             item.OwnerName = User.Identity.Name;
-            await _itemsService.AddItem(item);
+            await _itemsService.AddItemAsync(item);
             return Redirect("/Home");
         }
     }

@@ -7,12 +7,12 @@ namespace GetAGame.Services
 {
     public interface IitemsServices
     {
-        Task<List<Models.Item>> GetItems();
-        Task<Models.Item> GetItem(int? id);
-        Task<List<Models.Item>> GetItemsByName(string name);
-        Task DeleteItemById(int id);
+        Task<List<Models.Item>> GetItemsAsync();
+        Task<Models.Item> GetItemAsync(int? id);
+        Task<List<Models.Item>> GetItemsByNameAsync(string name);
+        Task DeleteItemByIdAsync(int id);
 
-        Task AddItem(Models.Item item);
+        Task AddItemAsync(Models.Item item);
 
     }
 }

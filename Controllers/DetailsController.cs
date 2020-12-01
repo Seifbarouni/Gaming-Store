@@ -14,7 +14,7 @@ namespace GetAGame.Controllers
         }
         public async Task<IActionResult> Index(int? id)
         {
-            var item = await _itemsService.GetItem(id);
+            var item = await _itemsService.GetItemAsync(id);
             if (item == null)
             {
                 return NotFound();

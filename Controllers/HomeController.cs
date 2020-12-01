@@ -23,12 +23,12 @@ namespace GetAGame.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _itemsService.GetItems());
+            return View(await _itemsService.GetItemsAsync());
         }
 
         public async Task<IActionResult> MyItems(string name)
         {
-            var items = await _itemsService.GetItemsByName(name);
+            var items = await _itemsService.GetItemsByNameAsync(name);
             return View(items);
         }
 
