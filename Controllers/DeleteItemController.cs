@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using GetAGame.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GetAGame.Controllers
@@ -12,6 +13,7 @@ namespace GetAGame.Controllers
         {
             _itemsService = itemsService;
         }
+        [Authorize]
 
         public async Task<IActionResult> Delete(int id)
         {
